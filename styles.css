@@ -35,9 +35,21 @@ button {
     color: #fff;
     font-size: 30px;
 }
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.95)
+}
 
 .operator {
     color: #337cac;
+}
+
+.delete {
+    grid-area: 2 / 4;
+     color: #337cac;
 }
 
 .all-clear {
@@ -46,9 +58,10 @@ button {
 }
 
 .equal {
-    color: #2e86c0;
-    border: 2px solid  #2e86c0;
-    grid-area: 2 / 4 / 6 / 4;
+    color: #f3f4f5;
+    background-color:  #337cac;
+    border: none;
+    grid-area: 3 / 4 / 6 / 4;
     height: 100%;
 }
 
